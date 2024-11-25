@@ -1,0 +1,50 @@
+.movie-item {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .movie-card {
+    width: 300px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie-year {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .movie-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .movie-edit-btn, .movie-delete-btn {
+    width: 45%;
+  }
+  
+  .movie-edit-btn:hover, .movie-delete-btn:hover {
+    opacity: 0.8;
+  }
